@@ -1,0 +1,168 @@
+[
+  {
+    "slug": "nirmaan-integrated-platform",
+    "title": "Nirmaan Integrated Platform",
+    "tagline": "Enterprise platform for project requests and organizational workflows",
+    "description": "A production enterprise platform that streamlines project request management, approval workflows, role-based access control, notifications, and organizational administration through a unified web application.",
+    "featured": true,
+    "year": 2025,
+    "coverImage": "/projects/nirmaan/dashboard.png",
+    "screenshots": [
+      "/projects/nirmaan/dashboard.png",
+      "/projects/nirmaan/login.png",
+      "/projects/nirmaan/landing.png"
+    ],
+    "stack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "tRPC",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "Better Auth",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "TanStack React Query",
+      "Docker",
+      "Coolify"
+    ],
+    "tags": ["Enterprise", "Production", "SaaS"],
+    "links": {
+      "demo": "https://nip.thenirmaan.ai"
+    },
+    "overview": {
+      "architecture": "A full-stack Next.js application using tRPC for end-to-end type-safe APIs between client and server. PostgreSQL is accessed through Drizzle ORM, authentication and role-based access are handled by Better Auth, and the UI is built with Tailwind CSS and shadcn/ui. The app is containerized with Docker and deployed via Coolify.",
+      "features": [
+        "Project request management with multi-step approval workflows",
+        "Role-based access control and user management",
+        "Administrative modules and organizational dashboards",
+        "Notifications for workflow state changes",
+        "Responsive UI built with Tailwind CSS and shadcn/ui"
+      ],
+      "challenges": [
+        "Modeling flexible approval workflows across multiple roles",
+        "Keeping the client and server contracts type-safe as features grew",
+        "Optimizing data fetching and caching for dashboard-heavy screens"
+      ]
+    },
+    "detail": {
+      "problem": "The organization needed a single, reliable system to manage project requests, approvals, access control, and administration that had previously been spread across manual and disconnected processes.",
+      "solution": "I built a unified web application with type-safe tRPC APIs, a Drizzle-modeled PostgreSQL schema, and Better Auth for authentication and role-based access. TanStack React Query optimized data fetching, and the app was containerized with Docker and deployed on Coolify.",
+      "architectureDiagram": "Client (Next.js + React Query) -> tRPC API -> Drizzle ORM -> PostgreSQL\nBetter Auth -> Session + RBAC\nDocker Image -> Coolify Deployment",
+      "databaseDesign": "PostgreSQL modeled with Drizzle ORM stores users, roles, project requests, approval steps, and audit/notification records, with relations enforcing role-based access and workflow state.",
+      "apiFlow": "1) A user submits a project request through a type-safe tRPC mutation. 2) The request enters an approval workflow routed by role. 3) Approvers act on requests and state transitions trigger notifications. 4) Admin modules manage users, roles, and organizational data.",
+      "lessonsLearned": [
+        "End-to-end type safety with tRPC eliminated an entire class of client/server bugs.",
+        "Modeling workflow state explicitly kept approval logic predictable.",
+        "React Query caching noticeably improved perceived performance on dashboard views."
+      ]
+    }
+  },
+  {
+    "slug": "hysea-csr",
+    "title": "HYSEA CSR Platform",
+    "tagline": "Connecting corporates and NGOs for CSR collaboration",
+    "description": "A CSR (Corporate Social Responsibility) platform that connects corporate partners and NGOs, with role-based panels for administrators, corporates, and NGOs to manage projects, approvals, and SDG impact tracking. Built on the T3 Stack.",
+    "featured": true,
+    "year": 2025,
+    "coverImage": "/projects/hysea/dashboard.png",
+    "screenshots": [
+      "/projects/hysea/dashboard.png",
+      "/projects/hysea/login.png",
+      "/projects/hysea/landing.png"
+    ],
+    "stack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "NextAuth.js",
+      "ZenStack",
+      "TanStack React Query",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Azure Blob Storage"
+    ],
+    "tags": ["CSR", "Production", "SaaS"],
+    "links": {},
+    "overview": {
+      "architecture": "A T3 Stack application (Next.js App Router, TypeScript) with PostgreSQL and Prisma. ZenStack sits on top of Prisma to define access-control policies from a single schema, and NextAuth.js handles authentication. Role-based panels for admins, corporates, and NGOs are served from the same app, with TanStack React Query for data fetching and Azure Blob Storage for file uploads.",
+      "features": [
+        "Role-based panels for administrators, corporates, and NGOs",
+        "CSR project collaboration between corporates and NGOs",
+        "Approval workflows and organizational administration",
+        "SDG impact tracking and dashboards",
+        "Secure authentication with credential and OAuth sign-in",
+        "File uploads backed by Azure Blob Storage"
+      ],
+      "challenges": [
+        "Enforcing per-role access control consistently across panels",
+        "Keeping authorization rules in sync with the data model",
+        "Coordinating workflows across corporate and NGO stakeholders"
+      ]
+    },
+    "detail": {
+      "problem": "Corporates and NGOs lacked a shared, secure space to collaborate on CSR initiatives, track projects, and measure SDG impact, making coordination manual and fragmented across different roles.",
+      "solution": "I built a T3 Stack platform with PostgreSQL and Prisma, using ZenStack to declare access-control policies from a single schema so authorization stays consistent across admin, corporate, and NGO panels. NextAuth.js secures sign-in, TanStack React Query handles data fetching, and Azure Blob Storage manages file uploads.",
+      "architectureDiagram": "Client (Next.js + React Query) -> ZenStack Hooks -> Prisma -> PostgreSQL\nNextAuth.js -> Session + Role-based access\nAzure Blob Storage -> File uploads",
+      "databaseDesign": "PostgreSQL is modeled with Prisma, with a ZenStack schema (schema.zmodel) as the source of truth that generates the Prisma schema and row-level access policies. It stores users and roles (Admin, Corporate, NGO), organizations, CSR projects, approvals, and SDG impact records.",
+      "apiFlow": "1) A user signs in through NextAuth.js and is resolved to a role. 2) ZenStack-generated hooks enforce access policies on every query and mutation. 3) Corporates and NGOs create and collaborate on CSR projects. 4) Admins manage approvals, users, and organizational data, with impact surfaced on dashboards.",
+      "lessonsLearned": [
+        "Declaring access-control policies alongside the schema kept authorization consistent and auditable.",
+        "A single source-of-truth model (schema.zmodel) reduced drift between data and permissions.",
+        "Role-based panels are far easier to reason about when access rules live in the data layer."
+      ]
+    }
+  },
+  {
+    "slug": "real-time-chat",
+    "title": "Real-Time Chat Application",
+    "tagline": "Real-time messaging with authentication",
+    "description": "A full-stack real-time messaging application featuring authentication, live communication, and a responsive user experience.",
+    "featured": false,
+    "year": 2024,
+    "coverImage": "/project-placeholder.svg",
+    "screenshots": [
+      "/project-placeholder.svg"
+    ],
+    "stack": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "Socket.io",
+      "Material UI"
+    ],
+    "tags": ["Real-time", "WebSockets", "Full-Stack"],
+    "links": {
+      "github": "https://github.com/dev-react009/chat-app-react"
+    },
+    "overview": {
+      "architecture": "A React and TypeScript frontend communicates with an Express.js backend over Socket.io for real-time, bidirectional messaging. Authentication secures access and message validation ensures data integrity.",
+      "features": [
+        "Real-time messaging over WebSockets",
+        "Authentication and secure message validation",
+        "Responsive UI built with React and Material UI",
+        "Reusable chat components and efficient state management"
+      ],
+      "challenges": [
+        "Maintaining reliable real-time delivery over WebSockets",
+        "Securing message flows with authentication and validation",
+        "Managing chat state efficiently on the client"
+      ]
+    },
+    "detail": {
+      "problem": "Users needed instant, reliable communication with secure access rather than slow, request-based messaging.",
+      "solution": "I built a full-stack app using Socket.io for real-time delivery, an Express.js backend for APIs and authentication, and a React + TypeScript client with reusable chat components and efficient state management.",
+      "architectureDiagram": "React Client <-> Socket.io <-> Express.js Server\nAuth + Message Validation -> Secure message flow",
+      "databaseDesign": "Message and user records are managed through backend APIs, with authentication protecting access and validation enforced on incoming messages.",
+      "apiFlow": "1) A user authenticates. 2) The client opens a Socket.io connection. 3) Messages are validated and broadcast in real time. 4) The UI updates instantly for all participants.",
+      "lessonsLearned": [
+        "WebSockets require deliberate handling of connection and delivery edge cases.",
+        "Validating messages server-side is essential even in a trusted client.",
+        "Reusable components kept the chat UI maintainable as it grew."
+      ]
+    }
+  }
+]

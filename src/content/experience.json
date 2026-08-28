@@ -1,0 +1,78 @@
+[
+  {
+    "id": "nirmaan-platform",
+    "title": "Nirmaan Integrated Platform",
+    "type": "Production Enterprise Platform",
+    "status": "Professional Experience",
+    "description": "A production enterprise platform that streamlines project request management, approval workflows, role-based access control, notifications, and organizational administration through a unified web application.",
+    "highlights": [
+      "Developed production features using Next.js, React, TypeScript, and tRPC.",
+      "Built project request workflows, dashboards, and administrative modules.",
+      "Developed backend APIs and integrated PostgreSQL using Drizzle ORM.",
+      "Implemented authentication, role-based access control, and user management.",
+      "Built responsive interfaces using Tailwind CSS and shadcn/ui.",
+      "Optimized application performance using TanStack React Query.",
+      "Collaborated on testing, debugging, code reviews, and production deployments."
+    ],
+    "stack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "tRPC",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "Better Auth",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "TanStack React Query",
+      "Docker",
+      "Coolify"
+    ]
+  },
+  {
+    "id": "hysea",
+    "title": "HYSEA CSR & Impact Hiring",
+    "type": "Production Module",
+    "status": "Professional Experience",
+    "description": "A production module within the Nirmaan Integrated Platform that enables NGOs, corporate partners, and job seekers to collaborate through CSR initiatives and impact hiring programs.",
+    "highlights": [
+      "Developed responsive interfaces using Next.js, React, and TypeScript.",
+      "Built business workflows for CSR project collaboration and impact hiring.",
+      "Integrated backend APIs for dynamic data management.",
+      "Worked with PostgreSQL and Drizzle ORM for structured data operations.",
+      "Built reusable UI components following modern frontend practices."
+    ],
+    "stack": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "tRPC",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    "id": "chat-app",
+    "title": "Real-Time Chat Application",
+    "type": "Personal Project",
+    "status": "Completed",
+    "github": "https://github.com/dev-react009/chat-app-react",
+    "description": "A full-stack real-time messaging application featuring authentication, live communication, and responsive user experience.",
+    "highlights": [
+      "Implemented real-time messaging using Socket.io.",
+      "Built responsive UI using React and TypeScript.",
+      "Integrated authentication and secure message validation.",
+      "Developed backend APIs using Express.js.",
+      "Designed reusable chat components and efficient state management."
+    ],
+    "stack": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "Socket.io",
+      "Material UI"
+    ]
+  }
+]

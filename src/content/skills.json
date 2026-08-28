@@ -1,0 +1,30 @@
+[
+  {
+    "category": "Frontend",
+    "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Radix UI", "React Query", "Zustand", "Framer Motion"]
+  },
+  {
+    "category": "Backend",
+    "items": ["Node.js", "Express", "tRPC", "GraphQL", "REST", "NestJS", "Go", "Zod"]
+  },
+  {
+    "category": "Database",
+    "items": ["PostgreSQL", "MySQL", "Redis", "ClickHouse", "Prisma", "Drizzle", "MongoDB"]
+  },
+  {
+    "category": "Cloud",
+    "items": ["AWS", "Vercel", "Cloudflare", "GCP", "S3", "Lambda", "CloudFront"]
+  },
+  {
+    "category": "DevOps",
+    "items": ["Docker", "Terraform", "GitHub Actions", "Kubernetes", "Nginx", "Grafana", "OpenTelemetry"]
+  },
+  {
+    "category": "AI",
+    "items": ["OpenAI API", "LangChain", "Vector Search", "RAG Pipelines", "Embeddings", "Prompt Evaluation"]
+  },
+  {
+    "category": "Tools",
+    "items": ["Git", "Vitest", "Playwright", "Storybook", "Figma", "Linear", "pnpm"]
+  }
+]

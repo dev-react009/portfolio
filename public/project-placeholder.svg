@@ -1,0 +1,15 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Project screenshot placeholder">
+  <rect width="1200" height="675" fill="#0f1115"/>
+  <rect x="0.5" y="0.5" width="1199" height="674" stroke="#2a2f3a"/>
+  <g fill="#3a4150">
+    <rect x="80" y="90" width="360" height="18" rx="4"/>
+    <rect x="80" y="128" width="520" height="12" rx="4" fill="#2a2f3a"/>
+    <rect x="80" y="152" width="440" height="12" rx="4" fill="#2a2f3a"/>
+  </g>
+  <g fill="#1a1e26" stroke="#2a2f3a">
+    <rect x="80" y="250" width="320" height="200" rx="10"/>
+    <rect x="440" y="250" width="320" height="200" rx="10"/>
+    <rect x="800" y="250" width="320" height="200" rx="10"/>
+  </g>
+  <text x="600" y="600" text-anchor="middle" font-family="monospace" font-size="26" fill="#4a5162">Screenshot placeholder</text>
+</svg>

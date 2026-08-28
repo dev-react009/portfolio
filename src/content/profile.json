@@ -1,0 +1,25 @@
+{
+  "journey": [
+    "I enjoy building web applications that solve real-world problems and deliver a smooth user experience. What started as curiosity about frontend development has grown into a passion for building complete, production-ready applications.",
+    "Over the past 2+ years, I've worked across the stack using Next.js, React, TypeScript, Node.js, Prisma, and PostgreSQL. My experience includes developing REST APIs, designing database models, building responsive interfaces, and improving application performance.",
+    "I enjoy turning product requirements into reliable software by writing clean, maintainable code, building reusable components, and creating scalable backend solutions."
+  ],
+  "mindset": [
+    "Build simple solutions before adding complexity.",
+    "Write clean, maintainable code that other developers can understand.",
+    "Focus on solving user problems rather than just shipping features.",
+    "Continuously learn modern technologies and engineering best practices.",
+    "Treat performance, reliability, and code quality as part of every feature."
+  ],
+  "learning": [
+    "System Design and scalable backend architecture.",
+    "Docker, AWS, and modern deployment workflows.",
+    "Applied AI and LLM integrations for production applications.",
+    "Multi-tenant SaaS architecture and enterprise application design."
+  ],
+  "goals": [
+    "Become a strong product engineer capable of building scalable software used by thousands of users.",
+    "Contribute to high-impact engineering teams solving challenging technical problems.",
+    "Build AI-powered SaaS products and eventually start my own technology company."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@tsparticles/engine",
+      "sharp",
+      "unrs-resolver"
+    ]
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@radix-ui/react-label": "^2.1.1",
+    "@radix-ui/react-separator": "^1.1.1",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@tsparticles/engine": "^4.3.2",
+    "@tsparticles/plugin-easing-expo": "^4.3.2",
+    "@tsparticles/react": "^4.3.2",
+    "@tsparticles/slim": "^4.3.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.15.0",
+    "lucide-react": "^0.469.0",
+    "next": "^16.2.10",
+    "next-themes": "^0.4.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.4",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^9.18.0",
+    "eslint-config-next": "^16.2.10",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.3"
+  }
+}
