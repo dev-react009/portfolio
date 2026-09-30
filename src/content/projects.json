@@ -28,7 +28,7 @@
     ],
     "tags": ["Enterprise", "Production", "SaaS"],
     "links": {
-      "demo": "https://nip.thenirmaan.ai"
+      "demo":null
     },
     "overview": {
       "architecture": "A full-stack Next.js application using tRPC for end-to-end type-safe APIs between client and server. PostgreSQL is accessed through Drizzle ORM, authentication and role-based access are handled by Better Auth, and the UI is built with Tailwind CSS and shadcn/ui. The app is containerized with Docker and deployed via Coolify.",

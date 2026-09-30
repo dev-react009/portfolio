@@ -22,7 +22,7 @@ export interface SkillCategory {
 }
 
 export interface ProjectLink {
-  demo?: string;
+  demo?: string| null;
   github?: string;
 }
 
