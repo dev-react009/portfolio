@@ -4,15 +4,15 @@
     "title": "Nirmaan Integrated Platform",
     "type": "Production Enterprise Platform",
     "status": "Professional Experience",
-    "description": "A production enterprise platform that streamlines project request management, approval workflows, role-based access control, notifications, and organizational administration through a unified web application.",
+    "description": "A production enterprise platform for managing project requests, approval workflows, role-based access control, notifications, and organizational administration.",
     "highlights": [
       "Developed production features using Next.js, React, TypeScript, and tRPC.",
       "Built project request workflows, dashboards, and administrative modules.",
-      "Developed backend APIs and integrated PostgreSQL using Drizzle ORM.",
-      "Implemented authentication, role-based access control, and user management.",
-      "Built responsive interfaces using Tailwind CSS and shadcn/ui.",
-      "Optimized application performance using TanStack React Query.",
-      "Collaborated on testing, debugging, code reviews, and production deployments."
+      "Developed type-safe backend APIs using tRPC, PostgreSQL, and Drizzle ORM.",
+      "Contributed to authentication, role-based access control, and user management.",
+      "Built reusable responsive interfaces using Tailwind CSS and shadcn/ui.",
+      "Improved API and frontend performance through optimized data fetching and rendering.",
+      "Contributed to testing, debugging, code reviews, and production deployments."
     ],
     "stack": [
       "Next.js",
@@ -34,22 +34,52 @@
     "title": "HYSEA CSR & Impact Hiring",
     "type": "Production Module",
     "status": "Professional Experience",
-    "description": "A production module within the Nirmaan Integrated Platform that enables NGOs, corporate partners, and job seekers to collaborate through CSR initiatives and impact hiring programs.",
+    "description": "A production web platform supporting CSR initiatives and impact hiring by connecting NGOs, corporate partners, and job seekers.",
     "highlights": [
       "Developed responsive interfaces using Next.js, React, and TypeScript.",
-      "Built business workflows for CSR project collaboration and impact hiring.",
+      "Built business workflows for CSR initiatives and impact hiring.",
       "Integrated backend APIs for dynamic data management.",
-      "Worked with PostgreSQL and Drizzle ORM for structured data operations.",
+      "Worked with PostgreSQL and ORM-based data operations.",
       "Built reusable UI components following modern frontend practices."
     ],
     "stack": [
       "Next.js",
       "React",
       "TypeScript",
-      "tRPC",
       "PostgreSQL",
-      "Drizzle ORM",
+      "Prisma",
       "Tailwind CSS"
+    ]
+  },
+  {
+    "id": "ai-sales-planning",
+    "title": "AI Sales Planning & Decision Assistant",
+    "type": "Applied AI Portfolio Project",
+    "status": "Currently Building",
+    "github": "https://github.com/dev-react009/ai-sales-planning-assistant",
+    "description": "An AI-powered sales planning assistant that combines organizational knowledge with structured sales data to answer business questions and support sales decision-making.",
+    "highlights": [
+      "Building an LLM-powered workflow using LangGraph to coordinate RAG and business tools.",
+      "Developing RAG using embeddings, semantic search, PostgreSQL, and pgvector.",
+      "Building read-only business tools for quota attainment, account assignments, and territory information.",
+      "Integrating MCP to expose business tools through a standardized interface.",
+      "Using parameterized database queries and restricted tool access instead of allowing arbitrary SQL execution.",
+      "Developing FastAPI APIs and a Next.js interface for interacting with the assistant."
+    ],
+    "stack": [
+      "Python",
+      "FastAPI",
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "pgvector",
+      "Sentence Transformers",
+      "LangGraph",
+      "LangChain",
+      "MCP",
+      "LLM APIs",
+      "RAG",
+      "Embeddings"
     ]
   },
   {
@@ -58,13 +88,13 @@
     "type": "Personal Project",
     "status": "Completed",
     "github": "https://github.com/dev-react009/chat-app-react",
-    "description": "A full-stack real-time messaging application featuring authentication, live communication, and responsive user experience.",
+    "description": "A full-stack real-time messaging application featuring live communication and a responsive user experience.",
     "highlights": [
       "Implemented real-time messaging using Socket.io.",
       "Built responsive UI using React and TypeScript.",
-      "Integrated authentication and secure message validation.",
-      "Developed backend APIs using Express.js.",
-      "Designed reusable chat components and efficient state management."
+      "Implemented user session handling and message validation.",
+      "Developed backend services using Node.js and Express.js.",
+      "Designed reusable chat components and client-side state management."
     ],
     "stack": [
       "React",

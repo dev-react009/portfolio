@@ -1,25 +1,32 @@
 {
   "journey": [
-    "I enjoy building web applications that solve real-world problems and deliver a smooth user experience. What started as curiosity about frontend development has grown into a passion for building complete, production-ready applications.",
-    "Over the past 2+ years, I've worked across the stack using Next.js, React, TypeScript, Node.js, Prisma, and PostgreSQL. My experience includes developing REST APIs, designing database models, building responsive interfaces, and improving application performance.",
-    "I enjoy turning product requirements into reliable software by writing clean, maintainable code, building reusable components, and creating scalable backend solutions."
+    "I enjoy building web applications that solve real-world problems and deliver a smooth user experience. Over the past few years, that curiosity has grown into a passion for building complete, production-ready software.",
+    
+    "I have around 4 years of experience building full-stack applications using React, Next.js, TypeScript, Node.js, Python, PostgreSQL, and modern backend tools. My experience includes developing REST APIs, designing database-driven systems, building reusable interfaces, optimizing performance, testing, debugging, and supporting production deployments.",
+    
+    "More recently, I've been exploring applied AI and building AI-powered applications using LLMs, RAG, embeddings, vector search, tool calling, LangGraph, and MCP. I enjoy combining strong software engineering fundamentals with practical AI capabilities."
   ],
+
   "mindset": [
     "Build simple solutions before adding complexity.",
     "Write clean, maintainable code that other developers can understand.",
-    "Focus on solving user problems rather than just shipping features.",
-    "Continuously learn modern technologies and engineering best practices.",
-    "Treat performance, reliability, and code quality as part of every feature."
+    "Focus on solving real user and business problems rather than just shipping features.",
+    "Treat performance, reliability, security, and code quality as part of every feature.",
+    "Continuously learn modern technologies and engineering best practices."
   ],
+
   "learning": [
-    "System Design and scalable backend architecture.",
-    "Docker, AWS, and modern deployment workflows.",
-    "Applied AI and LLM integrations for production applications.",
+    "System design and scalable backend architecture.",
+    "Cloud infrastructure, Docker, Kubernetes, and modern deployment workflows.",
+    "Applied AI, LLM applications, RAG, and agentic systems.",
+    "AI evaluation, observability, security, and production reliability.",
     "Multi-tenant SaaS architecture and enterprise application design."
   ],
+
   "goals": [
     "Become a strong product engineer capable of building scalable software used by thousands of users.",
+    "Grow into an Applied AI Engineer who can build reliable AI-powered products from prototype to production.",
     "Contribute to high-impact engineering teams solving challenging technical problems.",
-    "Build AI-powered SaaS products and eventually start my own technology company."
+    "Eventually build and launch my own technology product."
   ]
 }
