@@ -7,7 +7,7 @@ export const siteConfig = {
   url: "https://sriram-garapati.vercel.app",
   ogImage: "/og.png",
 
-  resumeUrl: "https://drive.google.com/file/d/1u1I4PCLZkSAlt-26Ogq6b9xmKZStXHY3/view?usp=drive_link",
+  resumeUrl: "https://drive.google.com/file/d/1WTU5PnMaHbDJ_2u-f-6GgMmYYmqykXBH/view?usp=drive_link",
   email: "sriram.gsr16@gmail.com",
   location: "Remote & Hybrid",
   links: {
